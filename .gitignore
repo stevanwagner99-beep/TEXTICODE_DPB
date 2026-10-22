@@ -1,0 +1,22 @@
+# Variables de entorno
+.env
+texticode-api/.env
+texticode-vue/.env
+
+# Dependencias y build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Certificados HTTPS locales
+certs/*.key
+certs/*.crt
+
+# Certificados dentro del frontend
+texticode-vue/certs/*.key
+texticode-vue/certs/*.crt
+
+.env.docker
+DATABASE/docker/*.sql
+
